@@ -5,11 +5,17 @@
     */
 
     //ENTRADA
-
+let prima = Number(prompt(`Escreva um valor:`).trim());
 
     //PROCESSAMENTO
-
+function parOuImpart(num){
+    if(num%2===0){
+    return num = `par`
+    }else{
+     return   num = `impar`
+    }
+}
 
     //SAÍDA
-
+document.write(`O valor é ${parOuImpart(prima)}`);
 </script>

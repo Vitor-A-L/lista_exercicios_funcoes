@@ -5,11 +5,18 @@
     */
 
     //ENTRADA
-
+let num = Number(prompt(`Informe um valor inteiro:`).trim());
 
     //PROCESSAMENTO
-
+function inter(valor){
+let res = 1
+while(valor>1){
+    res*=valor;
+    valor--;
+}
+return res
+}
 
     //SAÍDA
-
+document.write(`O resultado do fatorado do valor é ${inter(num)}`);
 </script>

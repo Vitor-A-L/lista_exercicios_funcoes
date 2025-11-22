@@ -6,11 +6,20 @@
     */
 
     //ENTRADA
-
+let num = Number(prompt(`Escreva um número interito:`));
 
     //PROCESSAMENTO
+ function inteiro(valor){
+if(Number.isInteger(valor)){
+valor = valor ** 3
+document.write(`O valor ao Cubo fica ${valor}`)
+}else{
+    alert(`Valor inválido`);
+}
 
+ }
 
     //SAÍDA
-
+    inteiro(num);
+//deu certo de primeiraaaaaaaaaaaaaaaaaaaaaa AEEEEEEEEEEEE
 </script>

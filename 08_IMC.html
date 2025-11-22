@@ -6,11 +6,15 @@
     */
 
     //ENTRADA
-
+let peso = Number(prompt(`Qual é o seu peso?:`).trim());
+let altura = Number(prompt(`Qual é a sua altura? EX(1.75):`).trim());
 
     //PROCESSAMENTO
-
+ function IMC(carmed, labubo){
+    
+ return carmed/(labubo*labubo);
+ }
 
     //SAÍDA
-
+document.write(`O seu IMC é de ${IMC(peso, altura)}`);
 </script>

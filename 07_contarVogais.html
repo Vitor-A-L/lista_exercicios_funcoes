@@ -7,11 +7,21 @@
     */
 
     //ENTRADA
-
+let vogais = prompt(`Escreva uma palavra:`).toLocaleLowerCase().trim();
 
     //PROCESSAMENTO
-
+function verif(vai){
+    const vogal = ["a" , "e" , "i" , "o" , "u"];
+    let ii = 0;
+    for(let i of vai){
+        if(vogal.includes(i)){
+            ii++
+        }
+    }
+   return vai = ii
+   
+}
 
     //SAÍDA
-
+document.write(`A quantidade de vogais nessa palavra é de ${verif(vogais)}`);
 </script>
